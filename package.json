@@ -1,0 +1,23 @@
+{
+  "name": "doomsday",
+  "version": "0.1.0",
+  "description": "Ship software like the universe is about to end",
+  "main": "lib/deploy.js",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "graceful-fs": "^3.0.2",
+    "request": "^2.44.0",
+    "tough-cookie": "^0.12.1",
+    "winston": "^0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ksheedlo/doomsday.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "doomsday": "bin/doomsday.js"
+  },
+  "author": "Ken Sheedlo <ovrkenthousand@gmail.com>",
+  "license": "MIT"
+}
